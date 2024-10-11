@@ -13,6 +13,7 @@ pyttsx3 = "^2.98"
 mistralai = "^1.1.0"
 wave = "^0.0.2"
 pyaudio = "^0.2.14"
+google-cloud-texttospeech = "^2.18.0"
 
 
 [build-system]

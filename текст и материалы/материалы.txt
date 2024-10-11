@@ -1,1 +1,3 @@
 базовый бот с пояснениями: https://habr.com/ru/articles/529590/
+
+умный поиск: https://llamatutor.together.ai/
