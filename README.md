@@ -1,29 +1,29 @@
 # Telegram Interview Bot
 
-## Описание проекта
+## Project Description
 
-**Telegram Interview Bot** — это бот для подготовки к собеседованиям, который задаёт вопросы и ожидает ответов от пользователя в текстовом или голосовом формате. Бот поддерживает синтез речи для вопросов и распознавание голоса для ответов, что позволяет пользователю взаимодействовать с ботом через аудиосообщения.
+*Telegram Interview Bot** is a job interview preparation bot that asks questions and expects answers from the user in text or voice format. The bot supports speech synthesis for questions and voice recognition for answers, which allows the user to interact with the bot through audio messages.
 
-Проект использует такие технологии, как `python-telegram-bot` для взаимодействия с Telegram API, `pyttsx3` для преобразования текста в речь и **Vosk** для оффлайн-распознавания голоса. Основной задачей бота является тренировка пользователей для успешного прохождения собеседований.
+The project uses technologies such as python-telegram-bot to interact with the Telegram API, pyttsx3 to convert text to speech, and Vosk for offline voice recognition. The main task of the bot is to train users to successfully complete interviews.
 
-## Возможности
+## Features
 
-- Задавание случайных вопросов для подготовки к собеседованию.
-- Отправка вопросов пользователю в виде голосового сообщения и текстового дубликата.
-- Ожидание ответа от пользователя в формате голосового или текстового сообщения.
-- Проверка правильности ответа и предоставление обратной связи.
-- Кнопка для запроса нового вопроса.
+- Asking random questions to prepare for the interview.
+- Sending questions to the user in the form of a voice message and a duplicate text.
+- Waiting for a response from the user in the format of a voice or text message.
+- Checking the correctness of the response and providing feedback.
+- A button to request a new question.
 
-## Установка
+## Installation
 
-### Требования
+### Requirements
 
-- **Python** версии 3.7 и выше.
-- Менеджер пакетов **pip**.
+- **Python** versions 3.7 and higher.
+- Package manager **pip**.
 
-### Зависимости
+### Dependencies
 
-Чтобы установить все необходимые зависимости, выполните следующую команду:
+To install all the necessary dependencies, run the following command:
 
 ```bash
 pip install python-telegram-bot pyttsx3 vosk SpeechRecognition
