@@ -1,2 +1,5 @@
 .pytest_cache
 __pycache__
+llm_survey_system.egg-info
+venv
+interview.db

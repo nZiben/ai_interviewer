@@ -4,7 +4,7 @@ import tempfile
 import os
 
 class WhisperSTT:
-    def __init__(self, model_name='base'):
+    def __init__(self, model_name='tiny'):
         """model_name может быть 'tiny', 'base', 'small', 'medium', 'large'"""
         self.model = whisper.load_model(model_name)
 
