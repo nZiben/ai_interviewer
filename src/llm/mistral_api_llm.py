@@ -4,8 +4,7 @@ from mistralai import Mistral
 class MistralAPILLM:
     def __init__(self, api_key: str = None, model: str = "mistral-large-latest"):
         if api_key is None:
-            #api_key = os.environ["MISTRAL_API_KEY"]
-            api_key = "nWTS186L3cb8bRolb4uH83omh9OJqmTy"
+            api_key = os.environ["MISTRAL_API_KEY"]
 
         self.api_key = api_key
         self.model = model
