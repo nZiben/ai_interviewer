@@ -79,7 +79,7 @@ On the main page, select "User Interface".
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Link to PyPi library
+## PyPi library
 
 https://pypi.org/project/ai-interviewer/
 
